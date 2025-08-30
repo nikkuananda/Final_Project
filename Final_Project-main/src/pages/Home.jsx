@@ -1,0 +1,1 @@
+import React from 'react';\nimport Navbar from '../components/Navbar';\nimport Footer from '../components/Footer';\n\nfunction Home() {\n  return (\n    <div>\n      <Navbar />\n      <h1>Welcome to the Travel Home Page</h1>\n      <Footer />\n    </div>\n  );\n}\n\nexport default Home;

@@ -1,0 +1,1 @@
+import React from 'react';\nimport { Route, Redirect } from 'react-router-dom';\n\nfunction ProtectedRoute({ component: Component, ...rest }) {\n  const isAuthenticated = true; // Simulasi login\n  return (\n    <Route {...rest} render={(props) => (\n      isAuthenticated ? <Component {...props} /> : <Redirect to='/login' />\n    )} />\n  );\n}\n\nexport default ProtectedRoute;

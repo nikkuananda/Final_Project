@@ -1,0 +1,1 @@
+import { createSlice } from '@reduxjs/toolkit';\n\nconst paymentMethodSlice = createSlice({\n  name: 'paymentMethod',\n  initialState: [],\n  reducers: {},\n});\n\nexport default paymentMethodSlice.reducer;

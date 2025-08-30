@@ -1,0 +1,1 @@
+import React from 'react';\nimport { BrowserRouter as Router, Route, Switch } from 'react-router-dom';\nimport App from './App';\n\nfunction Routes() {\n  return (\n    <Router>\n      <Switch>\n        <Route exact path='/' component={App} />\n      </Switch>\n    </Router>\n  );\n}\n\nexport default Routes;
