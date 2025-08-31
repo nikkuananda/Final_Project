@@ -178,6 +178,8 @@ npm install
 npm run dev
 ````
 
+# Deploy vercel :✅ https://final-project-qj6nh39lv-nikkus-projects-3bfc40ac.vercel.app
+
 ---
 
 ## 📊 Rubrik Penilaian
